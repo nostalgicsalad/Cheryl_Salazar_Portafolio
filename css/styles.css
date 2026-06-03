@@ -1,0 +1,137 @@
+/* Estilo general */
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Navegación */
+.navbar {
+    background-color: #1f3c88;
+    padding: 15px;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+/*letras barra de navegacion*/
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Secciones */
+.section {
+    padding: 50px;
+    max-width: 1000px;
+    margin: auto;
+}
+.section h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: #1f3c88;
+}
+
+/* Identidad */
+.perfil {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+.perfil img {
+    
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #1f3c88;
+}
+.info h2 { /* Identidad-Nombre*/
+    margin-top: 0;
+    color: #1f3c88;
+}
+.info h3 { /* Identidad-titulos*/
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.info p{
+    margin-top: 0;
+
+}
+
+/* Módulo IA */
+
+.ia-modulo {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.ia-info {
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+    min-width: 500px;
+}
+.ia-info p{
+    margin-bottom: 0;
+}
+.ia-info h2 {
+    margin-top: 0;
+    color: #1f3c88;
+}
+hr { /*linea horizontal*/
+  border: none;
+  margin-top: 0;
+  height: 3px;
+  background-color: #1f3c88;
+  width: 1000px;
+  
+}
+.ia-card {
+    background: white;
+    padding: 30px;
+    border-radius: 5px;
+    border-left: 5px solid #1f3c88;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    flex: 1;
+    min-width: 500px;
+}
+.ia-card h2 {
+    color: #1f3c88;
+    margin-top: 0px;
+}
+.ia-card h3 {
+    color: #1f3c88;
+    margin-top: 40px;
+}
+.ia-card p{
+    margin-top: -5px;
+}
+.ia-card-g {
+    background: white;
+    padding: 30px;
+    border-radius: 5px;
+    border-left: 5px solid #1f3c88;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    flex: 1;
+    min-width: 500px;
+}
+.ia-card-g h2{
+    color:#1f3c88;
+    margin-top: 0px;
+}
+.ia-card-g h3{
+    color: #1f3c88;
+    margin-bottom: 0;
+}
