@@ -67,6 +67,7 @@ body {
 }
 .info p{
     margin-top: 0;
+    text-align: justify;
 
 }
 
@@ -83,8 +84,9 @@ body {
     flex: 1;
     min-width: 500px;
 }
-.ia-info p{
+.ia-info p {
     margin-bottom: 0;
+    text-align: justify;
 }
 .ia-info h2 {
     margin-top: 0;
@@ -106,6 +108,7 @@ hr { /*linea horizontal*/
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     flex: 1;
     min-width: 500px;
+    text-align: justify;
 }
 .ia-card h2 {
     color: #1f3c88;
@@ -115,8 +118,9 @@ hr { /*linea horizontal*/
     color: #1f3c88;
     margin-top: 40px;
 }
-.ia-card p{
+.ia-card p {
     margin-top: -5px;
+    text-align: justify;
 }
 .ia-card-g {
     background: white;
