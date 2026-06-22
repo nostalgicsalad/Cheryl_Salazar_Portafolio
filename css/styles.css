@@ -43,33 +43,55 @@ body {
     color: #1f3c88;
 }
 
-/* Identidad */
+/* Contenedor general */
 .perfil {
     display: flex;
-    gap: 30px;
-    align-items: flex-start;
+    flex-direction: column; /* Foto+nombre arriba, texto abajo */
+    gap: 25px;
 }
-.perfil img {
-    
-    width: 220px;
-    height: 220px;
+
+/* Foto + nombre alineados */
+.info-top {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.info-top img {
+    width: 230px;
+    height: 230px;
     object-fit: cover;
     border-radius: 50%;
-    border: 3px solid #1f3c88;
+    border: 4px solid #1f3c88;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
-.info h2 { /* Identidad-Nombre*/
-    margin-top: 0;
+
+.info-top h2 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
     color: #1f3c88;
 }
-.info h3 { /* Identidad-titulos*/
-    margin-top: 0;
-    margin-bottom: 0;
-}
-.info p{
-    margin-top: 0;
-    text-align: justify;
 
+/* Texto inferior */
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
+
+.info h3 {
+    margin: 0;
+    color: #1f3c88;
+}
+
+.info p {
+    margin: 0;
+    text-align: justify;
+    line-height: 1.55;
+}
+
+
 
 /* Módulo IA */
 
