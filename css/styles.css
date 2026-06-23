@@ -25,9 +25,11 @@ body {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    font-size: 20px;
 }
 .navbar a:hover {
     text-decoration: underline;
+    background-color: #215b8bcb;
 }
 
 /* Secciones */
@@ -75,7 +77,7 @@ body {
 }
 .info-top h1 {
     margin: 0;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
     color: #1f3c88;
     margin-bottom: 10px;
